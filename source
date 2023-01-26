@@ -49,8 +49,6 @@ local Button = Tab:CreateButton({
     getgenv().Aiming.GrabbedCheck = true
     getgenv().Aiming.Wallcheck = true
 
- end,
- })
  
  local Button = Tab:CreateButton({
     Name = "Smooth Camlock",
