@@ -4,10 +4,10 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 local Window = Rayfield:CreateWindow({
    Name = "Rex Streamable",
    LoadingTitle = "Rex Streamable",
-   LoadingSubtitle = "by Rex | creds to Rex",
+   LoadingSubtitle = "This was created by Rex",
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
+      FolderName = Rex, -- Create a custom folder for your hub/game
       FileName = "Rex Streamable"
    },
    Discord = {
@@ -32,9 +32,9 @@ local Tab = Window:CreateTab("Rex Streamable", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Op Streamable")
  
 local Button = Tab:CreateButton({
-    Name = "Rex Main",
+    Name = "Rex Streamable (/e res for resolver auto prediction)",
     Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/stabrn/-3/main/source", true))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/stabrn/-3/main/source", true))()
     getgenv().Aiming.FOV = 6.9
     getgenv().Aiming.FOVSides = 360
     getgenv().Aiming.HitChance = 100
